@@ -1,0 +1,238 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-30T07:46:08.953Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19479999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EbaySteps.beforeScenario1(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Como usuario quiero verificar los filtros de busqueda",
+        "description": "",
+        "id": "examen-de-automatización;como-usuario-quiero-verificar-los-filtros-de-busqueda;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 645932101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EbaySteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20291601,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "se encuentra abierto la página de Ebay",
+            "match": {
+              "location": "EbaySteps.se_encuentra_abierto_la_página_de_Ebay()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110561900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "ingreso \"zapatos\" en el campo de busqueda",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"zapatos\"",
+                  "offset": 8
+                }
+              ],
+              "location": "EbaySteps.ingreso_en_el_campo_de_busqueda(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10946512601,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hago clic en el botón Buscar",
+            "match": {
+              "location": "EbaySteps.hago_clic_en_el_botón_Buscar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153461000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "se muestra la etiqueta \"zapatos\" como resultado de la busqueda",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"zapatos\"",
+                  "offset": 23
+                }
+              ],
+              "location": "EbaySteps.se_muestra_la_etiqueta_como_resultado_de_la_busqueda(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1023603700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecciono marca \"PUMA\" para filtrar los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUMA\"",
+                  "offset": 17
+                }
+              ],
+              "location": "EbaySteps.selecciono_marca_para_filtrar_los_resultados(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1204052001,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "se muestra la etiqueta \"PUMA\" como resultado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUMA\"",
+                  "offset": 23
+                }
+              ],
+              "location": "EbaySteps.se_muestra_la_etiqueta_como_resultado(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1097590700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecciono talla \"10\" para filtrar los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 17
+                }
+              ],
+              "location": "EbaySteps.selecciono_talla_para_filtrar_los_resultados(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 867319701,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "se muestra el total de resultados",
+            "match": {
+              "location": "EbaySteps.se_muestra_el_total_de_resultados()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3102346700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "ordeno por precio ascendente",
+            "match": {
+              "location": "EbaySteps.ordeno_por_precio_ascendente()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1381064900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "se ordena el resultado e imprimo los 5 primeros productos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 37
+                }
+              ],
+              "location": "EbaySteps.seOrdenaElResultadoEImprimoLosPrimerosProductos(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 386047299,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "imprimo los productos por nombre ascendente",
+            "match": {
+              "location": "EbaySteps.imprimo_los_productos_por_nombre_ascendente()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 453498399,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "imprimo los productos por precio descendente",
+            "match": {
+              "location": "EbaySteps.imprimo_los_productos_por_precio_descendente()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5298355001,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "envio reporte por correo",
+            "match": {
+              "location": "EbaySteps.envio_reporte_por_correo()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Examen de automatización",
+    "description": "",
+    "id": "examen-de-automatización",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Ebay.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,8 @@
+pages\BasePage.class
+pages\EbayPage.class
+objets\EbayObj.class
+steps\EbaySteps.class
+core\DriverManager.class
+pages\NotificationEmail.class
+runner\TestRunner.class
+core\Driver.class

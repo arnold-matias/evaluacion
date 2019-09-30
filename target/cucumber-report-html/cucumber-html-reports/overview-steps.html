@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>ExecutionAutomation</td>
+              <td>1</td>
+            <td>30 Sep 2019, 02:46</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">EbaySteps.afterScenario(Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="645932101">0.645</td>
+              <td class="duration" data-value="645932101">0.645</td>
+              <td class="duration" data-value="645932101">0.645</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.beforeScenario1(Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="19479999400">19.479</td>
+              <td class="duration" data-value="19479999400">19.479</td>
+              <td class="duration" data-value="19479999400">19.479</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.envio_reporte_por_correo()</td>
+              <td>1</td>
+              <td class="duration" data-value="5298355001">5.298</td>
+              <td class="duration" data-value="5298355001">5.298</td>
+              <td class="duration" data-value="5298355001">5.298</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.hago_clic_en_el_bot&oacute;n_Buscar()</td>
+              <td>1</td>
+              <td class="duration" data-value="10946512601">10.946</td>
+              <td class="duration" data-value="10946512601">10.946</td>
+              <td class="duration" data-value="10946512601">10.946</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.imprimo_los_productos_por_nombre_ascendente()</td>
+              <td>1</td>
+              <td class="duration" data-value="386047299">0.386</td>
+              <td class="duration" data-value="386047299">0.386</td>
+              <td class="duration" data-value="386047299">0.386</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.imprimo_los_productos_por_precio_descendente()</td>
+              <td>1</td>
+              <td class="duration" data-value="453498399">0.453</td>
+              <td class="duration" data-value="453498399">0.453</td>
+              <td class="duration" data-value="453498399">0.453</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.ingreso_en_el_campo_de_busqueda(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="110561900">0.110</td>
+              <td class="duration" data-value="110561900">0.110</td>
+              <td class="duration" data-value="110561900">0.110</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.ordeno_por_precio_ascendente()</td>
+              <td>1</td>
+              <td class="duration" data-value="3102346700">3.102</td>
+              <td class="duration" data-value="3102346700">3.102</td>
+              <td class="duration" data-value="3102346700">3.102</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.seOrdenaElResultadoEImprimoLosPrimerosProductos(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="1381064900">1.381</td>
+              <td class="duration" data-value="1381064900">1.381</td>
+              <td class="duration" data-value="1381064900">1.381</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.se_encuentra_abierto_la_p&aacute;gina_de_Ebay()</td>
+              <td>1</td>
+              <td class="duration" data-value="20291601">0.020</td>
+              <td class="duration" data-value="20291601">0.020</td>
+              <td class="duration" data-value="20291601">0.020</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.se_muestra_el_total_de_resultados()</td>
+              <td>1</td>
+              <td class="duration" data-value="867319701">0.867</td>
+              <td class="duration" data-value="867319701">0.867</td>
+              <td class="duration" data-value="867319701">0.867</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.se_muestra_la_etiqueta_como_resultado(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1204052001">1.204</td>
+              <td class="duration" data-value="1204052001">1.204</td>
+              <td class="duration" data-value="1204052001">1.204</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.se_muestra_la_etiqueta_como_resultado_de_la_busqueda(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="153461000">0.153</td>
+              <td class="duration" data-value="153461000">0.153</td>
+              <td class="duration" data-value="153461000">0.153</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.selecciono_marca_para_filtrar_los_resultados(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1023603700">1.023</td>
+              <td class="duration" data-value="1023603700">1.023</td>
+              <td class="duration" data-value="1023603700">1.023</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">EbaySteps.selecciono_talla_para_filtrar_los_resultados(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1097590700">1.097</td>
+              <td class="duration" data-value="1097590700">1.097</td>
+              <td class="duration" data-value="1097590700">1.097</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>15</td>
+            <td>15</td>
+            <td class="duration">3.078</td>
+            <td class="duration">19.479</td>
+            <td class="duration">46.170</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
