@@ -69,7 +69,6 @@ public class EbayPage extends BasePage {
 
     public void imprimirTotalResultados(){
          String totalProducto = driver.getVisibleText(ebayObj.txtTotalResultado);
-        System.out.println("=====================================");
         System.setOut(fichero);
         System.out.println("En total son "+totalProducto+" productos");
     }

@@ -1,0 +1,20 @@
+En total son 6,026 productos
+Producto 1: Puma Adultos Unisex POPCAT Verano Playa Deportes Correa Diapositiva Sandalias Zapatos Blanco.. precio S/. 72.02
+Producto 2: Las diapositivas del gato Puma plomo (36026302) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva precio S/. 100.86
+Producto 3: Las diapositivas del gato Puma plomo (36026301) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva precio S/. 100.86
+Producto 4: Las diapositivas del gato Puma plomo (36026308) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva precio S/. 100.86
+Producto 5: Puma Cat diapositivas (36026321) Lead Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva precio S/. 100.86
+
+Productos ordenados alfabeticamente
+Las diapositivas del gato Puma plomo (36026301) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva
+Las diapositivas del gato Puma plomo (36026302) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva
+Las diapositivas del gato Puma plomo (36026308) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva
+Puma Adultos Unisex POPCAT Verano Playa Deportes Correa Diapositiva Sandalias Zapatos Blanco..
+Puma Cat diapositivas (36026321) Lead Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva
+
+Productos ordenados por precio descendente
+S/. 72.02 Puma Adultos Unisex POPCAT Verano Playa Deportes Correa Diapositiva Sandalias Zapatos Blanco..
+S/. 100.86 Puma Cat diapositivas (36026321) Lead Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva
+S/. 100.86 Las diapositivas del gato Puma plomo (36026308) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva
+S/. 100.86 Las diapositivas del gato Puma plomo (36026302) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva
+S/. 100.86 Las diapositivas del gato Puma plomo (36026301) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva

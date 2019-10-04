@@ -45,12 +45,12 @@ public class EbayObj {
         TXT_MARCA ="//*[@id=\"srp-river-results-query_answer1-w0-x-carousel-items\"]/ul/li[1]/div/a/div";
         CHK_TALLA = "//input[@aria-label='10']";
         TXT_TOTAL_RESULTADOS = "//*[@id=\"mainContent\"]/div[1]/div/div[2]/div/div[1]/h1/span[1]";
-        TXT_ORDEN_ASCENDENTE = "//*[@id=\"w7\"]/div/div/ul/li[4]/a";
+        TXT_ORDEN_ASCENDENTE = "//*[@id=\"w8\"]/div/div/ul/li[4]/a";
         TXT_NOMBRE_PRODUCTOS = "//*[@id=\"srp-river-results-listing1\"]/div/div[2]/a/h3";
         txtNombreProducto = "//*[@id=\"srp-river-results-listing@label\"]/div/div[2]/a/h3";
         txtPrecioProducto = "//*[@id=\"srp-river-results-listing@label\"]/div/div[2]/div[3]/div[1]/span";
-        TXT_ORDEN_DESCENDENTE = "//*[@id=\"w7\"]/div/div/ul/li[5]/a";
-        BTN_ORDENAR_POR = "//*[@id=\"w7\"]/button/div/div";
+        TXT_ORDEN_DESCENDENTE = "//*[@id=\"w8\"]/div/div/ul/li[5]/a";
+        BTN_ORDENAR_POR = "//*[@id=\"w8\"]/button/div/div";
 
         logoEbay = By.xpath(IMG_LOGO);
         lblBuscar = By.id(LBL_BUSCAR);
