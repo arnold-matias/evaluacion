@@ -17,7 +17,7 @@ public class EbayPage extends BasePage {
     private EbayObj ebayObj = null;
 
     NotificationEmail notificacion = new NotificationEmail();
-    PrintStream fichero = new PrintStream(new File("D:/fichero.txt"));
+    PrintStream fichero = new PrintStream(new File("src/test/java/output/fichero.txt"));
     public EbayPage() throws FileNotFoundException {
         ebayObj = new EbayObj();
     }

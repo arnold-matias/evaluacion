@@ -9,7 +9,7 @@ public class NotificationEmail {
 
     public void EnviarCorreo() throws EmailException {
         EmailAttachment attachment = new EmailAttachment();
-        attachment.setPath("D:/fichero.txt");
+        attachment.setPath("src/test/java/output/fichero.txt");
         attachment.setDisposition(EmailAttachment.ATTACHMENT);
         attachment.setDescription("informe.txt");
         attachment.setName("Reporte");
